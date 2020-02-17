@@ -12,7 +12,4 @@ resource "docker_container" "container_id" {
     external = "80"
   }
 }
-resource "docker_image" "ghost" {
-  name = "ghost:latest"
-}
 
