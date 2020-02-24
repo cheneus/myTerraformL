@@ -9,6 +9,11 @@ variable "container_name" {
   # default     = "g-blog"
 }
 
+variable "image_name" {
+  description = "Image for container."
+  default     = "ghost:latest"
+}
+
 variable "int_port" {
   description = "Internal port for container."
   # default     = "2368"
