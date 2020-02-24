@@ -2,12 +2,6 @@ variable "env" {
   description = "env: dev or prod"
 }
 
-#Define variables
-variable "image_name" {
-  description = "Image for container."
-  default     = "ghost:latest"
-}
-
 variable "container_name" {
   type        = map
   description = "Name of the container."
